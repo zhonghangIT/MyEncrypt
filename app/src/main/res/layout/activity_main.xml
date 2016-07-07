@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.education.myencrypt.MainActivity">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码" />
+
+    <TextView
+        android:id="@+id/textview_encrypt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="加密后的内容" />
+
+    <Button
+        android:id="@+id/button_md5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MD5加密" />
+
+    <Button
+        android:id="@+id/button_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES加密" />
+
+    <Button
+        android:id="@+id/button_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AES解密" />
+
+    <Button
+        android:id="@+id/button_base64_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base64加密" />
+
+    <Button
+        android:id="@+id/button_base64_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base64解密" />
+
+    <Button
+        android:id="@+id/button_rsa_encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA加密" />
+
+    <Button
+        android:id="@+id/button_rsa_decrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RSA解密" />
+</LinearLayout>
